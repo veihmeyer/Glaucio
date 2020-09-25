@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="true"
+    android:divider="@android:drawable/sym_action_call"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/telefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:editable="false" />
+
+        <Button
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#787980"
+            android:foreground="@android:drawable/ic_input_delete"
+            android:foregroundGravity="left|center"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="1"
+            android:textColor="#FFFFFF"
+
+            android:textSize="32sp" />
+
+        <Button
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"
+            android:clickable="true"
+            />
+
+        <Button
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"
+            android:clickable="true"
+            />
+
+        <Button
+
+            android:text="5"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"
+            android:clickable="true"
+            />
+
+        <Button
+            android:text="6"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:text="7"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"
+            android:clickable="true"
+            />
+
+        <Button
+            android:text="8"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"
+            android:clickable="true"
+            />
+
+        <Button
+            android:text="9"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:text="*"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"
+            android:clickable="true"
+            />
+
+        <Button
+            android:id="@+id/angry_btn"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:text="#"
+            android:textColor="#FFFFFF"
+            android:textSize="32dp"
+
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_weight="1"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/ligar"
+            android:layout_width="match_parent"
+
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonshape"
+            android:clickable="true"
+            android:foreground="@android:drawable/sym_action_call"
+            android:foregroundGravity="center"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+
+
+            android:textSize="32sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
